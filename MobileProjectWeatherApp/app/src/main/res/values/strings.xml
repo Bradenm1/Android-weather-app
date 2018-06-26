@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="title_home">Map</string>
+    <string name="title_stats">Weather Stats</string>
+    <string name="title_activity_google_maps">Help</string>
+    <string name="title_activity_main">Weather App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="sign_in_toast">Signed-in</string>
+    <string name="sign_in_failed_toast">Authentication failed.</string>
+    <string name="user_creation_failed_toast">User creation failed.</string>
+    <string name="user_creation_toast">User created!</string>
+
+    <!-- Strings related to defaults -->
+    <string name="default_route_name">Route 1</string>
+
+    <!-- Strings related to dialogs -->
+    <string name='dialog_load_route_button'>Load Route</string>
+    <string name='dialog_delete_route_button'>Delete Route</string>
+    <string name="dialog_place_marker">OK"</string>
+    <string name="dialog_ok">OK</string>
+    <string name='dialog_cancel_button'>Cancel</string>
+    <string name="dialog_exit">Exit</string>
+
+    <!-- Strings related to toast prompts -->
+    <string name="toast_route_delete">Route Deleted</string>
+    <string name="toast_route_load">Route Loaded</string>
+    <string name="toast_route_save">Route Saved</string>
+    <string name="toast_error">An error occurred</string>
+    <string name="toast_error_no_routes">You have no saved routes</string>
+    <string name="toast_error_adding_marker">Error adding marker to the map</string>
+    <string name="toast_error_cannot_place_marker">Cannot place marker here</string>
+    <string name="toast_could_not_retrive_location">Could not retrieve location</string>
+    <string name="toast_error_no_markers">Error you have no markers placed</string>
+    <string name="toast_error_no_internet_connection">No Internet Connection</string>
+
+    <!-- API links -->
+    <string name="api_link">http://api.worldweatheronline.com/premium/v1/weather.ashx?</string>
+    <string name="api_ley">key=88e96dff1a0d49078df30822182305</string>
+    <string name="api_format">format=json</string>
+    <string name="url_append_01"><![CDATA[&q=]]></string>
+    <string name="append_url_02"><![CDATA[&]]></string>
+    <string name="append_url_03"><![CDATA[&date=tomorrow&format=json]]></string>
+
+    <string name="Marker">Marker:</string>
+    <string name="Dash">-</string>
+    <string name="weather_app">Weather App</string>
+    <string name="settings">Settings</string>
+    <!-- help menu -->
+    <string name="help_menu_adding_marker">In-order to add a marker to the map, you simply find a location and tap on it, this will place a marker there. You can place more the one marker which will connect to each other, illustrating a route. Some places cannot have markers due to missing weather information, such as in the middle of a ocean. You can also press on a marker and and it will display a description of the weather</string>
+    <string name="help_menu_create_route">The most left button on the map page can be used to create new routes. Simply input a route named (This name is used when loading/deleting) and create it, You can now place down markers for your new route</string>
+    <string name="help_menu_delete_routes">The button used to load routes can also be used to delete routes. Simply select the route to be delete and hit the delete button</string>
+    <string name="help_menu_loading_routes">The most right button on the map page can be used to load routes. Loading a route will overwrite any current loaded routes</string>
+    <string name="help_menu_saving_routes">The middle button on the top right of the map page can be used to save routes. This will be saved to a cloud under you account. Other people cannot see your saved routes, it\'s limited to your account</string>
+    <string name="help_menu_create_new_route">Trampers, mountain bikers and other outdoor enthusiasts need to be able to check upcoming weather conditions as they plan their routes. This app can be used to accomplished this</string>
+    <string name="toast_error_no_route_selected">Please select a route</string>
+</resources>
